@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative pt-28 pb-20 md:pt-36 md:pb-32 overflow-hidden bg-gradient-to-b from-sync-white to-sync-gray">
+    <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden bg-gradient-to-b from-sync-white to-sync-gray">
       <div className="max-container relative z-10">
         <div className="flex flex-col items-center text-center">
           <div className="space-y-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -30,14 +30,14 @@ const Hero = () => {
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button
               onClick={scrollToContact}
-              className="px-6 py-6 bg-sync-blue hover:bg-sync-blue/90 text-white rounded-lg shadow-lg transition-all duration-300 transform hover:translate-y-[-2px] hover:shadow-xl text-lg"
+              className="px-6 py-6 bg-sync-blue hover:bg-sync-blue/90 text-white rounded-lg shadow-lg transition-all duration-300 transform hover:translate-y-[-3px] hover:shadow-xl text-lg font-medium"
             >
               Book a Free Demo
             </Button>
             <Button
               onClick={scrollToContact}
               variant="outline"
-              className="px-6 py-6 border-sync-blue text-sync-blue hover:bg-sync-blue/10 rounded-lg transition-all duration-300 transform hover:translate-y-[-2px] text-lg"
+              className="px-6 py-6 border-sync-blue text-sync-blue bg-white hover:bg-sync-blue/10 rounded-lg transition-all duration-300 transform hover:translate-y-[-3px] text-lg font-medium"
             >
               Get AI Strategy Call
             </Button>

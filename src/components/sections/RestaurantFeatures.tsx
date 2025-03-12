@@ -31,7 +31,7 @@ const RestaurantFeatures = () => {
         <div className="text-center mb-16">
           <p className="text-sync-lightBlue font-medium mb-3 animate-fade-in">AI FOR RESTAURANTS</p>
           <h2 className="text-3xl md:text-4xl font-bold animate-fade-in max-w-3xl mx-auto" style={{ animationDelay: "0.1s" }}>
-            How AI Helps Restaurants Increase Revenue & Save Time
+            AI Fills Tables & Boosts Revenue – Even When You're Closed!
           </h2>
         </div>
 
