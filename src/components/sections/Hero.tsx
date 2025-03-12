@@ -16,23 +16,30 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center">
           <div className="space-y-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <p className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-sync-blue/10 text-sync-blue">
-              AI Automation Agency
+              AI Automation for Restaurants
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl leading-tight md:leading-tight lg:leading-tight mx-auto">
-              We help businesses automate their online presence with{" "}
+              We help restaurants automate their operations with{" "}
               <span className="text-gradient">AI</span>
             </h1>
             <p className="text-lg md:text-xl text-sync-black/80 max-w-2xl mx-auto pt-2">
-              Elevate your digital strategy with cutting-edge AI solutions tailored for business growth and efficiency.
+              Elevate your restaurant with cutting-edge AI solutions tailored for increased revenue, better customer experience, and operational efficiency.
             </p>
           </div>
 
-          <div className="mt-8 md:mt-10 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button
               onClick={scrollToContact}
-              className="px-8 py-6 bg-sync-blue hover:bg-sync-blue/90 text-white rounded-lg shadow-lg transition-all duration-300 transform hover:translate-y-[-2px] hover:shadow-xl text-lg"
+              className="px-6 py-6 bg-sync-blue hover:bg-sync-blue/90 text-white rounded-lg shadow-lg transition-all duration-300 transform hover:translate-y-[-2px] hover:shadow-xl text-lg"
             >
-              Get Started
+              Book a Free Demo
+            </Button>
+            <Button
+              onClick={scrollToContact}
+              variant="outline"
+              className="px-6 py-6 border-sync-blue text-sync-blue hover:bg-sync-blue/10 rounded-lg transition-all duration-300 transform hover:translate-y-[-2px] text-lg"
+            >
+              Get AI Strategy Call
             </Button>
           </div>
         </div>
